@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Create Your Resume</h1>
+  </header>
+
+  <section>
+    <form id="resume-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone" required>
+
+      <label for="education">Education:</label>
+      <textarea id="education" name="education" required></textarea>
+
+      <label for="experience">Experience:</label>
+      <textarea id="experience" name="experience" required></textarea>
+
+      <label for="skills">Skills:</label>
+      <input type="text" id="skills" name="skills" required>
+
+      <label for="image">Upload Professional Image:</label>
+      <input type="file" id="image" name="image" accept="image/*" required>
+
+      <button type="submit">Create Resume</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Student Resume Portal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
